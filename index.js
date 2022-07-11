@@ -1,8 +1,6 @@
-var pokemon = document.getElementById("pokemon");
-a.addEventListener("click",mypokemon);
-
-function mypokemon()
-{
+let pokemon = document.getElementById("#pokemon");
+pokemon.addEventListener("click",mypokemon(){
     if(confirm("Do You Wish To Continue To The Pokemon Website?"))
-        location.href="pokemon\index.html";
-}
+        location.href="Pokemon/pokemon.html"
+});
+

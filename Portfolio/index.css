@@ -1,0 +1,70 @@
+body {
+    background-image: url(background3.jpg);
+
+    background-size: cover;
+}
+
+.nav {
+    background: black;
+}
+
+.navlist {
+    margin: 0%;
+    padding: 15px;
+    list-style-type: none;
+    color: white;
+    vertical-align: middle;
+}
+
+.navlist li {
+
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.navlist li a {
+    color: white;
+    float: right;
+    padding: 15px;
+    font-size: 40px;
+}
+
+#photo {
+
+    border-radius: 50%;
+    margin-left: 100px;
+    padding: 20px;
+    border-color: red;
+    width: 600px;
+    height: 800px;
+    float: right;
+
+}
+
+.about{
+    text-align: center;
+    
+    padding: 80px;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+#info{
+    font-size: 25px;
+}
+
+.socials{
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+

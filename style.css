@@ -1,0 +1,86 @@
+body {
+    background: rgb(229, 139, 215);
+    background: radial-gradient(circle, rgba(229, 139, 215, 1) 26%, rgba(166, 103, 234, 1) 48%, rgba(180, 83, 239, 1) 53%, rgba(102, 186, 196, 1) 77%, rgba(11, 191, 238, 1) 100%);
+}
+
+#heading {
+    background: black;
+    padding: 20px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    color: #fff;
+    text-align: center;
+
+}
+
+#me{
+    border-radius: 50%;
+    height: 240px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    display: block;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Gill Sans';
+    color: black;
+    padding: 25px 45px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    max-width: fit-content;
+    border: 7px solid black;
+    display: inline-flex;
+    text-align: center;
+    margin: 20px;
+}
+
+#name a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#mail {
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+
+#college {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.projects {
+    padding: 25px;
+    margin: 25px;
+}
+
+
+.projects button {
+    font-size: 40px;
+    border-radius: 100px;
+    color: black;
+    background-color: rgb(251, 227, 196);
+    font-family: Georgia;
+    padding: 30px;
+    margin: 20px;
+    width: fit-content;
+    display: inline-block;
+}
+
+#last{
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
