@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON CHARACTERS</title>
+</head>
+<body style="background: #f1d19e;">
+    <center>
+        <div style="text-align: center;">
+            <button onclick="mybutton()"
+                style="padding: 20px; font-weight: 700; background-color: yellow; border-radius: 20px; border: 5px solid black;">
+                CLICK TO GO BACK </button>
+        </div>
+        <script>
+            function mybutton() {
+                if (confirm("ARE YOU SURE YOU WANT TO GO BACK?"))
+                    location.href = "pokemon.html";
+            }
+    
+        </script>
+        <div id="box">
+            <p id="name"> PIKACHU </p>
+            <img src="/images/pikachu.png" alt="" id="pokemon">
+            
+        </div>
+
+        <div id="box">
+            <p id="name"> EEVEE </p>
+            <img src="/images/eevee.png" alt="" id="pokemon">            
+        </div>
+        
+        <div id="box">
+            <p id="name"> JIGGLYPUFF </p>
+            <img src="/images/jigglypuff.webp" alt="" id="pokemon" >         
+        </div>
+        
+        <div id="box">
+            <p id="name"> PHANPY </p>
+            <img src="/images/phanpy.png" alt="" id="pokemon">          
+        </div>
+
+        <div id="box">
+            <p id="name"> PIPLUP </p>
+            <img src="/images/piplup.png" alt="" id="pokemon">
+        </div>
+
+        <div id="box">
+            <p id="name"> SQUIRTLY </p>
+            <img src="/images/squirtly.png" alt="" id="pokemon">
+        </div>
+
+        <div id="box">
+            <p id="name"> VULPIX </p>
+            <img src="/images/vulpix.png" alt="" id="pokemon">
+
+        </div>
+
+        
+    </center>
+</body>
+<style>
+    #pokemon{
+        height: 250px;
+        width: 250px;
+
+    }
+
+    #name{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Cambria;
+        color: red;
+        display: block;
+        padding: 10px;
+    }
+
+    #box{
+        border: 10px solid black;
+        padding: 25px;
+        margin: 20px;
+        width: fit-content;
+        display: inline-block;
+    }
+</style>
+</html>
