@@ -1,6 +1,6 @@
 body {
-    background: rgb(229, 139, 215);
-    background: radial-gradient(circle, rgba(229, 139, 215, 1) 26%, rgba(166, 103, 234, 1) 48%, rgba(180, 83, 239, 1) 53%, rgba(102, 186, 196, 1) 77%, rgba(11, 191, 238, 1) 100%);
+    background: rgb(231, 154, 219);
+    background: radial-gradient(circle, rgba(231, 154, 219, 1) 9%, rgba(200, 141, 236, 1) 37%, rgba(183, 139, 231, 1) 44%, rgba(128, 220, 231, 1) 86%, rgba(11, 191, 238, 1) 100%);
 }
 
 #heading {
@@ -14,7 +14,7 @@ body {
 
 }
 
-#me{
+#me {
     border-radius: 50%;
     height: 240px;
     width: 200px;
@@ -76,7 +76,7 @@ body {
     display: inline-block;
 }
 
-#last{
+#last {
     font-size: 15px;
     color: rgb(255, 0, 0);
     font-family: sans-serif;
