@@ -1,5 +1,5 @@
 body {
-    background-image: url(background3.jpg);
+    background-image: url("images/background.jpg");
 
     background-size: cover;
 }
@@ -53,10 +53,12 @@ body {
 
 .intro {
     font-size: 50px;
+    font-weight: 900;
 }
 
 #info{
     font-size: 25px;
+    font-weight: bold;
 }
 
 .socials{
