@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    border: 5px solid black;
+    display: flexbox;
+    padding: 10px;
+    margin: 25px;
+}
+
+.one .two .three{
+    text-align: center;
+    margin: 56px;
+    padding: 50px;
+    border: 2px solid red;
+    display: flex; justify-content: center;align-items: center;
+
+}
+
+.two .three{
+    text-align: center;
+    margin: 56px;
+    padding: 50px;
+    border: 2px solid red;
+    display: flex; justify-content: center;align-items: center;
+
+}
+
+.three{
+    text-align: center;
+    margin: 56px;
+    padding: 50px;
+    border: 2px solid red;
+    display: flex; justify-content: center;align-items: center;
+
+}
+
+.three .two{
+    margin-top: 20px;
+}
+
+body{
+    background: rgb(241, 210, 244);
+}
+
+#text{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#img{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
