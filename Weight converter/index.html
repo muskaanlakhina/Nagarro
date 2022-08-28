@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 5px;
+        }
+        body{
+            background: #b1c1e2;
+            font-family: Cambria;
+            text-align: center;
+            
+            
+        }
+        #grams{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 8px;
+        }
+        #kilo{
+            background: white;
+            border-radius: 10px;
+            margin: 8px;
+            padding: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+
+        }
+        .content{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+  <body>
+    <h1>GRAMS TO KILOGRAMS</h1>
+    <div class="content">
+        <div class="card " style="width: 18rem;">
+        <div class="card-body">
+          <div id="grams">
+            <label for="gram" > Enter Grams: </label>
+            <input type="number" name="gram" id="gram">   
+           
+        </div> 
+        <button  id="submit" class="card-link">Convert</button>
+          <div class="card-text" id="kilos"><label for="kilo">Kilograms:</label>
+            <br>
+            <p id="kilo"></p> 
+          
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#submit').on('click',function(){
+                let gram=$('#gram').val();
+                //let kg=document.getElementById('kilo')
+                if(gram!='')
+                {
+                    let kg=gram*0.001;
+                    $('#kilo').html(kg);
+                }
+            })
+            
+        })
+        
+    </script>
+</body>
+</html>

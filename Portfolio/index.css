@@ -1,72 +1,247 @@
 body {
-    background-image: url("images/background1.jpg");
+    background-image: url(background.jpg);
 
     background-size: cover;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 .nav {
     background: black;
+    /*width: 100%;*/
+    overflow: hidden;
+
+
 }
 
-.navlist {
-    margin: 0%;
-    padding: 15px;
-    list-style-type: none;
+.nav p {
+    float: left;
     color: white;
-    vertical-align: middle;
-}
-
-.navlist li {
-
-    color: white;
-    display: inline;
     text-align: center;
-    padding: 10px;
-    font-size: 40px;
-
+    padding: 1vw;
+    margin: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.navlist li a {
-    color: white;
+.nav p span {
+    margin: 0vw;
+    margin-left: 0vw;
+    font-size: 2vw;
+    padding: 2vw 2vw;
+}
+
+
+
+.navright {
     float: right;
-    padding: 15px;
-    font-size: 40px;
+    margin: 0vw;
+    padding: 3vw 0vw;
+    margin-top: 0vw;
+}
+
+
+.navright a {
+    color: white;
+    font-size: 2vw;
+    padding: 8vw 2vw;
+    text-align: center;
+}
+
+.navright a:hover {
+    background-color: rgb(240, 222, 222);
+    color: black;
+}
+
+/*@media screen and (max-width:466px) {
+    .nav {
+        float: none;
+        display: block;
+    }
+    
+}*/
+
+#logo {
+    height: 7vw;
+    width: 7vw;
+    border: 0px solid white;
+    margin: 0vw;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 #photo {
 
     border-radius: 50%;
     margin-left: 100px;
-    padding: 20px;
-    border-color: red;
-    width: 600px;
-    height: 800px;
+    padding: 0px;
+    margin: 0vw 2vw;
+    border: solid black 2px;
     float: right;
-
+    width: 40%;
+    height: 40vw;
 }
 
-.about{
+#about {
     text-align: center;
-    
-    padding: 80px;
+    margin-top: 15vw;
+    padding: 0vw;
+    display: block;
+
+
 }
 
-.intro {
-    font-size: 50px;
-    font-weight: 900;
+.knowmore {
+    margin: 10vw 1vw;
 }
 
-#info{
-    font-size: 25px;
+#clickhere {
+    margin: 5vw 1vw;
+    font-size: 2vw;
+    padding: 2vw;
+    border-radius: 9vw;
+    box-sizing: border-box;
+    background-color: rgba(251, 19, 19, 0.403);
+}
+
+#hello {
+    font-size: 4vw;
     font-weight: bold;
 }
 
-.socials{
-    padding: 20px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+#info {
+    font-size: 2vw;
+    width: 65%;
+    margin: 1vw 1vw;
+    display: none;
 }
 
+.socials {
+    padding: 2vw;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
 
+}
 
+.social a {
+    text-decoration: none;
+}
+
+#experience {
+    margin: 2vw 2.5vw;
+    display: inline-block;
+
+}
+
+#section {
+    font-size: 4vw;
+    text-align: left;
+    margin: 2vw;
+    margin-left: 4vw;
+}
+
+.card {
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    border-radius: 1vw;
+    padding: 2.5vw;
+    display: inline-block;
+    margin: 1vw 1vw;
+    height: 40vw;
+    float: left;
+}
+
+#title h2 {
+    font-size: 3vw;
+}
+
+#title h4 {
+    font-size: 2vw;
+}
+
+#desc {
+    font-size: 1.5vw;
+}
+
+#cards {
+    margin: 1vw 2vw;
+}
+
+#education {
+    margin: 2vw 2.5vw;
+    display: inline-block;
+
+}
+
+#result {
+    font-weight: bold;
+}
+
+#skillcard {
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    border-radius: 1vw;
+    padding: 2vw 2.5vw;
+    display: inline-flexbox;
+    margin: 1vw auto;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.skilllogo{
+    width:15vw;
+    height: 15vw;
+    padding: 2vw;
+    text-align: center;
+    
+}
+
+#contactme{
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    border-radius: 2vw;
+    display: flex;
+    margin: 4vw;
+    justify-content: center;
+    
+        
+}
+
+#contactme p{
+    font-size: 4vw;
+    margin: 3vw;
+}
+
+#contactme form{
+    margin: 2vw;
+
+}
+
+#contactme form input{
+    margin: 1vw;
+    height: 5vw;
+    border-radius: 1vw;
+}
+
+#message{
+    padding: 1vw;
+    margin: 1vw;
+}
+
+#contactme form button{
+    margin: 1vw 1vw;
+    padding: 2vw;
+}

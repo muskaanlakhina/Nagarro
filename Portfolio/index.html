@@ -4,31 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= <device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" type="text/css" href="index.css">
     <script src="https://kit.fontawesome.com/cf8a7f269b.js" crossorigin="anonymous"></script>
     <title> Muskaan Lakhina</title>
 </head>
 
 <body>
-    <div class="nav">
+    <div class="navbar">
+        <div class="nav">
 
-        <ul class="navlist">
-            <li> <a href="experience.html"> Experience </a></li>
-            <li> <a href="education.html"> Education </a></li>
-            <li> <a href="index.html"> Home </a></li>
-            <li> <img src="images/M (1).png" alt="" style="height: 80px; width: 80px; vertical-align:middle;"> MUSKAAN LAKHINA
-            </li>
-
-        </ul>
+            <p> <img src="M (1).png" alt="" id="logo"><span> MUSKAAN LAKHINA </span></p> 
+            
+            <div class="navright">
+                <a href="#about" class="navlink"> About </a>
+                <a href="#experience" class="navlink"> Experience </a>
+                <a href="#education" class="navlink"> Education </a>
+                <a href="#skills" class="navlink"> Skills </a>
+                <a href="#contactme" class="navlink"> Contact </a>
+            </div>
     </div>
+    </div>
+    
 
-    <img src="images/IMG_20180508_180409.png" alt="" id="photo">
-    <div class="about">
+    <div id="about">
+    <img src="IMG_20180508_180409.png" alt="" id="photo" class="responsive">
+    
         <div class="intro">
-            <p> <span style="color: red;"> Hey!</span> <br> I am <span style="color: red;"> Muskaan </span> Lakhina </p>
+            <p id="hello"> <span style="color: red;"> Hey!</span> <br> I am <span style="color: red;"> Muskaan </span> Lakhina </p>
             <!-- <button onclick="mybutton()"> CLICK HERE TO KNOW MORE ABOUT ME! </button> -->
-            <p id="info">
+            <button id="clickhere"> Click Here To Know More About Me!</button>          
+
+            <div id="info">
                 Hey Folks!
                 I am Muskaan Lakhina, an Engineering undergraduate in Information Technology from Bharati Vidyapeeth's
                 College Of Engineering.
@@ -36,34 +43,176 @@
                 lead.
                 Currently, I am a Summer Intern at Nagarro and I am learning about Web Apps.
                 You can connect with me by tapping the social media icons below.
-            </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/muskaan-lakhina/"> <img src="linkedin logo.png" alt="" class="socials">
+                    </a>
+                    <a href="https://github.com/muskaanlakhina"> <img src="gitlogo.png" alt="" class="socials"> </a>
+                    <a href="mailto: muskaanlakhina10@gmail.com"> <img src="gmail logo.png" alt="" class="socials"> </a>
+                    <a href="https://www.instagram.com/imuskaanlakhina/"> <img src="instagram logo.png" alt="" class="socials"> </a>
+                </div>
+                
+            </div>
         </div>
-        <div>
-            <a href="https://www.linkedin.com/in/muskaan-lakhina/">
-                <img src="images/linkedin logo.png" alt="" class="socials">
-            </a>
-            <a href="https://github.com/muskaanlakhina"> <img src="images/gitlogo.png" alt="" class="socials"> </a>
-            <a href="mailto: muskaanlakhina10@gmail.com"> <img src="images/gmail logo.png" alt="" class="socials"> </a>
-            <a href="https://www.instagram.com/imuskaanlakhina/"> <img src="images/instagram logo.png" alt="" class="socials">
-            </a>
-
-        </div>
-
 
     </div>
-
-    <!--
-
-        <script>
-                function mybutton() {
-                    var ele = document.createElement("p");
-                    ele.textContent = "Hey Folks! I am Muskaan Lakhina, an Engineering undergraduate in Information Technology from Bharati Vidyapeeth's College Of Engineering. I am a curious, hardworking and at the same time a fun loving girl, who knows when and how to take the lead. Currently, I am a Summer Intern at Nagarro and I am learning about Web Apps. You can connect with me by tapping the social media icons below.";
-                    document.appendChild(ele);
-                }
-            </script>
+    
+    <div id="experience">
         
-    -->
+        <hr>
+        <p id="section">
+            EXPERIENCE:
+        </p>
+        <div id="cards">
+            <div class="card">
+                <div id="title">
+                    <h2>Nagarro</h2>
+                    <h4>Summer Intern</h4>
+                    <h4>July 2022 - Present</h4>
+                </div>
+                <hr>
+                <div id="desc">
+                  <p>Getting trained on various web development technologies and frameworks in this 9
+                    weeks of internship program offered by Nagarro.
+                    Projects done in this internship can be viewed here:
+                  </p>
+                  <a href="https://muskaanlakhina.github.io/Nagarro/"> View Nagarro Projects</a> 
+                </div>
+              </div>
+    
+              <div class="card">
+                <div id="title">
+                    <h2>Utkarshini Edutech</h2>
+                    <h4>Technical Development Intern</h4>
+                    <h4>July 2021 - Aug 2021</h4>
+                </div>
+                <hr>
+                <div id="desc">
+                  <p>Completed a 6 weeks of internship with Utkarshini Edutech as a Technical
+                    Developer Intern and worked on Data Structures and Algorithms and Pygame
+                    Projects.
+                    </p>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div id="title">
+                    <h2>Internship Studio</h2>
+                    <h4>Intern</h4>
+                    <h4>Dec 2020 - Jan 2021</h4>
+                </div>
+                <hr>
+                <div id="desc">
+                  <p>5 weeks of internship in Machine Learning with the title of Youtube Adview
+                    Prediction.
+                    </p>
+                </div>
+              </div>
+        </div>
+        
+    </div>
 
+
+    <div id="education">
+        
+        <hr>
+        <p id="section">
+            EDUCATION:
+        </p>
+        <div id="cards">
+            <div class="card">
+                <div id="title">
+                    <h2>Bharati Vidyapeeth's College Of Engineering</h2>
+                    <h4>Graduation <br> (2019-2023)</h4>
+                </div>
+                <hr>
+                <div id="desc">
+                  <p>
+                    University: Guru Gobind Singh Indraprastha University 
+                  </p>
+                  <p>Bachelors Of Technology (B.Tech) in Information Technology (IT)</p>
+                  <p id="result">CGPA: 8.672 (Upto 5th Sem) </p>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div id="title">
+                    <h2>J.D. Tytler School</h2>
+                    <h4>Senior Secondary <br> (2018-2019)</h4>
+                </div>
+                <hr>
+                <div id="desc">
+                    <p>
+                         Board: CBSE 
+                    </p>
+                    <p>Science (PCM with C++)</p>
+                    <p id="result">Percentage: 73.6 (Best of 5) </p>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div id="title">
+                    <h2>J.D. Tytler School</h2>
+                    <h4>Secondary <br> (2016-2017) </h4>
+                </div>
+                <hr>
+                <div id="desc">
+                    <p>
+                         Board: CBSE 
+                    </p>
+                    <p id="result">CGPA: 8.8 </p>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+
+    <div id="skills">
+        
+        <hr>
+        <p id="section">
+            SKILLS:
+        </p>
+        <div id="skillcard">
+            <img src="Skills/c++.svg" alt="" srcset="" class="skilllogo">
+            <img src="Skills/python.jfif" alt="" srcset=""class="skilllogo">
+            <img src="Skills/sql.png" alt="" srcset="" class="skilllogo">
+            <img src="Skills/html.png" alt="" srcset="" class="skilllogo">
+            <img src="Skills/css.png" alt="" srcset="" class="skilllogo">
+            <img src="Skills/js.png" alt="" srcset="" class="skilllogo">
+            <!--<img src="Skills/git.png" alt="" srcset="" class="skilllogo">--> 
+        </div>
+    </div>
+
+    <div id="contactme">
+        <p>CONTACT ME:</p>
+        <form action="mailto:muskaanlakhina10@gmail.com" method="GET">
+            <div>
+                <input type="text" placeholder="Name" name="name" required />
+            </div>
+             
+            <div>
+              <input type="text" placeholder="Subject" name="subject" required />
+            </div>
+            <div>
+              <textarea id="message" placeholder="Your Message" name="body"  required></textarea>
+            </div>
+            <div>
+              <button type="submit">Send me a message</button>
+            </div>
+          </form>
+    </div>
+
+
+<script>
+    let click = document.getElementById("clickhere")
+    let info = document.getElementById("info")
+    click.addEventListener("click", ()=>{
+        info.style.display="block";
+        click.style.display="none";
+    })
+</script>
+
+    
 
 
 

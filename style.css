@@ -64,16 +64,24 @@ body {
 }
 
 
-.projects button {
-    font-size: 40px;
-    border-radius: 100px;
+.project {
+    font-size: 20px;
+    border-radius: 10px;
     color: black;
     background-color: rgb(251, 227, 196);
     font-family: Georgia;
-    padding: 30px;
-    margin: 20px;
+    padding: 3px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
     width: fit-content;
-    display: inline-block;
+    justify-content: flex-end;
+    float: right;
 }
 
 #last {
@@ -83,4 +91,17 @@ body {
     font-style: italic;
     font-weight: bold;
     text-align: center;
+}
+
+.deployed{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.git{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+
 }
