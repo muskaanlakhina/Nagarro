@@ -70,17 +70,16 @@ body {
     color: black;
     background-color: rgb(251, 227, 196);
     font-family: Georgia;
-    padding: 3px;
+    padding: 0px 25px ;
     margin: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .links{
     display: flex;
     width: fit-content;
-    justify-content: flex-end;
     float: right;
 }
 

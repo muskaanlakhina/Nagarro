@@ -1,0 +1,10 @@
+extends layouts/main-layout.pug
+
+block content 
+    +createPostForm(userLoggedIn)
+    .postsContainer 
+
+block scripts 
+    //- Scripts that are attached with home.html
+    script(src = "/js/home.js")
+    script(src = "/js/time_difference.js")
