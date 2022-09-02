@@ -1,7 +1,8 @@
 # twitter-clone
 twitter clone
-
-![](https://hwp.com.tr/wp-content/uploads/2020/12/twitter.jpg)
+  
+Deployed:
+https://twittermuskaan.herokuapp.com/login
 
 
 update on readme
